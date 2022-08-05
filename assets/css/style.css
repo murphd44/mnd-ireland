@@ -50,3 +50,10 @@ h1, h2 {
     border-bottom-color: gold;
 }
 
+#hero-image {
+    height: 400px;
+    width: 100%;
+    background: url(../images/mnd-hero-original.jpg) no-repeat center center;
+    background-size: cover;
+    clear: both;
+}
