@@ -15,10 +15,38 @@ h1, h2 {
     font-family: Roboto, sans-serif;
     color: 	#181818;
 }
-
+/* To change this logo id later to the actual MND logo */
 #logo {
     float: left;
-    font-size: 280%
+    font-size: 400%
 }
 
+#menu {
+    font-size: 150%
+}
+
+#menu, #logo {
+    line-height: 100px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* To change this border bottom color to white later once blue background added */
+#menu a:hover {
+    border-bottom: solid 5px;
+    border-bottom-color: gold;
+}
+
+.active {
+    border-bottom: solid 5px;
+    border-bottom-color: gold;
+}
 
