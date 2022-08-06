@@ -57,7 +57,6 @@ h1, h2 {
     background: url(../images/mnd-hero-original.jpg) no-repeat center center;
     background-size: cover;
     clear: both;
-    padding-bottom: 10px;
 }
 
 #hero-outer {
@@ -90,6 +89,7 @@ h1, h2 {
     float: left;
     text-align: center;
     padding-left: 10px;
+    margin-left: 10px;
 }
 
 #left-text h1 {
@@ -97,6 +97,7 @@ h1, h2 {
     text-align: center;
     text-transform: uppercase;
 }
+
 #left-text h2 {
     padding-top: 80px;
 }
@@ -138,9 +139,11 @@ h1, h2 {
 }
 
 #right-text {
-    height: 380px;
+    height: 370px;
     width: 30%;
     padding-top: 60px;
+    margin-top: 10px;
+    margin-right: 10px;
     float: right;
     text-align: center;
     line-height: 60px;
