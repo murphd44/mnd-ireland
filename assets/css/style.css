@@ -166,6 +166,8 @@ footer {
 
 .social-media {
     text-align: right;
+    font-size: 150%;
+    margin-right: 10px;
 }
 
 .social-media > li {
