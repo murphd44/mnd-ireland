@@ -87,6 +87,7 @@ h1, h2 {
     width: 66%;
     padding-top: 40px;
     float: left;
+    text-align: center;
 }
 
 #left-text h1 {
@@ -97,22 +98,25 @@ h1, h2 {
 #support-section {
     width: 33%;
     float: left;
+    background-color: blue;
 }
 
 #information-section {
     width: 33%;
     float: right;
+    background-color: yellow;
 }
 
 #care-section {
     width: 33%;
     margin: 0 auto;
+    background-color: silver;
 }
 
 /*to target this later to center these sections */
 #left-text, div {
-    color: red;
-    
+    display: inline-block;
+    width: 66%;
 }
 
 #right-text {
@@ -121,6 +125,11 @@ h1, h2 {
     padding-top: 40px;
     float: right;
     text-align: center;
+    background-color: green;
+}
+
+#footer {
+    clear: left;
 }
 
 
