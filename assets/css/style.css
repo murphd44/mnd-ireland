@@ -162,11 +162,10 @@ footer {
     height: 150px;
     width: 100%;
     clear: both;
-    float: left;
 }
 
 .social-media {
-    text-align: center;
+    text-align: right;
 }
 
 .social-media > li {
