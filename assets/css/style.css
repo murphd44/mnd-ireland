@@ -89,17 +89,17 @@ h1, h2 {
     float: left;
     text-align: center;
     padding-left: 10px;
-    margin-left: 10px;
 }
 
 #left-text h1 {
+    padding-top: 10px;
     padding-bottom: 30px;
     text-align: center;
     text-transform: uppercase;
 }
 
 #left-text h2 {
-    padding-top: 80px;
+    padding-top: 30px;
 }
 
 #support-section {
@@ -130,7 +130,7 @@ h1, h2 {
 #left-text, div {
     display: inline-block;
     width: 66%;
-    height: 360px;
+    height: 312px;
 }
 
 #left-text, p {
@@ -139,7 +139,7 @@ h1, h2 {
 }
 
 #right-text {
-    height: 370px;
+    height: 330px;
     width: 30%;
     padding-top: 60px;
     margin-top: 10px;
@@ -156,7 +156,18 @@ h1, h2 {
 }
 
 #footer {
+    height: 150px;
     clear: both;
+    float: left;
 }
+
+.social-media {
+    text-align: center;
+}
+
+.social-media > li {
+    display: inline;
+}
+
 
 
