@@ -57,6 +57,7 @@ h1, h2 {
     background: url(../images/mnd-hero-original.jpg) no-repeat center center;
     background-size: cover;
     clear: both;
+    padding-bottom: 10px;
 }
 
 #hero-outer {
@@ -88,6 +89,7 @@ h1, h2 {
     padding-top: 40px;
     float: left;
     text-align: center;
+    padding-left: 10px;
 }
 
 #left-text h1 {
@@ -95,39 +97,55 @@ h1, h2 {
     text-align: center;
     text-transform: uppercase;
 }
+#left-text h2 {
+    padding-top: 80px;
+}
 
 #support-section {
-    width: 33%;
+    width: 30%;
     float: left;
     background-color: blue;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #information-section {
-    width: 33%;
+    width: 30%;
     float: right;
     background-color: yellow;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #care-section {
-    width: 33%;
+    width: 30%;
     margin: 0 auto;
     background-color: silver;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /*to target this later to center these sections */
 #left-text, div {
     display: inline-block;
     width: 66%;
-    height: 340px;
+    height: 360px;
+}
+
+#left-text, p {
+    padding-right: 10px;
+    padding-top: 20px;
 }
 
 #right-text {
-    height: 400px;
-    width: 33%;
-    padding-top: 40px;
+    height: 380px;
+    width: 30%;
+    padding-top: 60px;
     float: right;
     text-align: center;
+    line-height: 60px;
     background-color: green;
+
 }
 
 #right-text h1 {
