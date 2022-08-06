@@ -109,11 +109,18 @@ h1, h2 {
     margin: 0 auto;
 }
 
+/*to target this later to center these sections */
+#left-text, div {
+    color: red;
+    
+}
+
 #right-text {
     height: 400px;
     width: 33%;
     padding-top: 40px;
     float: right;
+    text-align: center;
 }
 
 
