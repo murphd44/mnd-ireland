@@ -93,6 +93,7 @@ h1, h2 {
 #left-text h1 {
     padding-bottom: 30px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 #support-section {
@@ -117,6 +118,7 @@ h1, h2 {
 #left-text, div {
     display: inline-block;
     width: 66%;
+    height: 340px;
 }
 
 #right-text {
@@ -128,8 +130,12 @@ h1, h2 {
     background-color: green;
 }
 
+#right-text h1 {
+    text-transform: uppercase;
+}
+
 #footer {
-    clear: left;
+    clear: both;
 }
 
 
