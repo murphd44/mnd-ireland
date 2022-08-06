@@ -127,9 +127,12 @@ h1, h2 {
 }
 
 /*to target this later to center these sections */
-#left-text, div {
+#left-text {
     display: inline-block;
     width: 66%;
+}
+
+.article {
     height: 312px;
 }
 
@@ -155,8 +158,9 @@ h1, h2 {
     text-transform: uppercase;
 }
 
-#footer {
+footer {
     height: 150px;
+    width: 100%;
     clear: both;
     float: left;
 }
