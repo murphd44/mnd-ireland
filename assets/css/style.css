@@ -15,14 +15,21 @@ h1, h2 {
     font-family: Roboto, sans-serif;
     color: 	#181818;
 }
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: orange;
+}
 /* To change this logo id later to the actual MND logo */
 #logo {
     float: left;
+    margin-left: 10px;
 }
 
 #menu {
     font-size: 150%;
-    margin-right: 50px;
+    margin-right: 10px;
 }
 
 #menu, #logo {
@@ -83,17 +90,16 @@ h1, h2 {
 }
 
 #left-text {
-    height: 400px;
+    height: 380px;
     width: 66%;
-    padding-top: 40px;
     float: left;
     text-align: center;
-    padding-left: 10px;
+    padding: 10px;
 }
 
 #left-text h1 {
     padding-top: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -133,18 +139,18 @@ h1, h2 {
 }
 
 .article {
-    height: 312px;
+    height: 332px;
 }
 
 #left-text, p {
     padding-right: 10px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 #right-text {
     height: 330px;
     width: 30%;
-    padding-top: 60px;
+    padding-top: 50px;
     margin-top: 10px;
     margin-right: 10px;
     float: right;
@@ -159,9 +165,10 @@ h1, h2 {
 }
 
 footer {
-    height: 150px;
+    height: 100px;
     width: 100%;
     clear: both;
+    background-color: orange;
 }
 
 .social-media {
@@ -177,7 +184,7 @@ footer {
 
 .social-media i {
     margin: 1%;
-    padding: 2%;
+    padding: 10px;
     color: #181818;
     float: right;
 }
@@ -187,9 +194,13 @@ footer {
 }
 
 #address {
+    float: left;
+}
+
+#address p {
     text-align: left;
     margin-left: 10px;
-    float: left;
+    padding: 10px;
 }
 
 
