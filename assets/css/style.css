@@ -166,22 +166,30 @@ footer {
 
 .social-media {
     text-align: right;
-    margin-right: 10px;
+    margin-right: 25px;
 }
 
 .social-media > li {
     display: inline;
+    font-size: 150%;
+    
 }
 
 .social-media i {
-    font-size: 150%;
     margin: 1%;
     padding: 2%;
     color: #181818;
+    float: right;
 }
 
 .social-media i:hover {
     color: gold
+}
+
+#address {
+    text-align: left;
+    margin-left: 10px;
+    float: left;
 }
 
 
