@@ -58,6 +58,25 @@ header {
     border-bottom-color: gold;
 }
 
+.active button {
+    background-color: #303030;
+    color: gold;
+}
+
+button {
+    border: 2px solid #303030;
+    background-color: white;
+    padding: 12px 12px;
+    font-size: 100%;
+    border-radius: 4px;
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    background-color: #181818;
+    color: gold;
+}
+
 #hero-image {
     height: 400px;
     width: 100%;
