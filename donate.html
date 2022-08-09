@@ -30,33 +30,43 @@
         </nav>
     </header>
    <form action="https://formdump.codeinstitute.net" method="post">
-        <div>
-            <label for="donation-amount">Choose an Amount:</label>
-            <input type="radio" id="donation-amount" name="donation_amount">
+        <p>Choose an Amount: </p>
         </div>
+            <input id="€20" name="donation_amount" value="€20_donation" type="radio">
+            <label for="€20">€20</label>
+
+            <input id="€50" name="donation_amount" value="€50_donation" type="radio">
+            <label for="€50">€50</label>
+
+            <input id="€75" name="donation_amount" value="€75_donation" type="radio">
+            <label for="€75">€75</label>
+
+            <input id="€100" name="donation_amount" value="€100_donation" type="radio">
+            <label for="€100">€100</label>
         <div>
-            <label for="other-donation-amount">Enter Amount:</label>
-            <input type="number" id="other-donation-amount" name="other_donation_amount">
+            <label for="other-donation-amount">Enter Other Amount (€):</label>
+            <input type="number" id="other-donation-amount" name="other_donation_amount" placeholder="Enter Amount e.g. 25" step="5" min="5">
         </div>
         <div>
             <label for="fname">First Name</label>
-            <input type="text" id="fname" name="first_name">
+            <input type="text" id="fname" name="first_name" placeholder="Enter Your First Name">
         </div>
         <div>
             <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="last_name">
+            <input type="text" id="lname" name="last_name" placeholder="Enter Your Last Name">
         </div>
         <div>
             <label for="address">Postal Address</label>
-            <input type="text" id="address" name="address">
+            <input type="text" id="address" name="address" placeholder="Enter Your Address">
         </div>
         <div>
             <label for="email">Email Address</label>
-            <input type="email" id="email" name="email">
+            <input type="email" id="email" name="email" placeholder="Enter Your Email">
         </div>
         <div>
-            <label for="newsletter">Would you like to sign up for our newsletter?</label>
-            <input type="checkbox" id="newsletter" name="signup_newsletter">
+            <label for="newsletter">Would you like to sign up for our newsletter? You can keep updated about the impact of your support with our newsletter. 
+                It is sent 3 times per year with updates on what we're doing in the fight against MND.</label>
+            <input type="checkbox" id="newsletter" name="signup_newsletter" value="yes" checked>
         </div>
         <div>
             <input type="submit" id="submit-form">
