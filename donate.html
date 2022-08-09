@@ -30,6 +30,8 @@
         </nav>
     </header>
    <form action="https://formdump.codeinstitute.net" method="post">
+    <fieldset>
+        <legend>Donation</legend>    
         <p>Choose an Amount: </p>
         </div>
             <input id="€20" name="donation_amount" value="€20_donation" type="radio">
@@ -47,6 +49,9 @@
             <label for="other-donation-amount">Enter Other Amount (€):</label>
             <input type="number" id="other-donation-amount" name="other_donation_amount" placeholder="Enter Amount e.g. 25" step="5" min="5">
         </div>
+    </fieldset>
+    <Fieldset>
+        <legend>Personal Details</legend>
         <div>
             <label for="fname">First Name</label>
             <input type="text" id="fname" name="first_name" placeholder="Enter Your First Name">
@@ -74,11 +79,15 @@
             <label for="email">Email Address</label>
             <input type="email" id="email" name="email" placeholder="Enter Your Email">
         </div>
+    </Fieldset>
+    <fieldset>
+        <legend>Sign up</legend>
         <div>
             <label for="newsletter">Would you like to sign up for our newsletter? You can keep updated about the impact of your support with our newsletter. 
                 It is sent 3 times per year with updates on what we're doing in the fight against MND.</label>
             <input type="checkbox" id="newsletter" name="signup_newsletter" value="yes" checked>
         </div>
+    </fieldset>
         <div>
             <input type="submit" id="submit-form">
         </div>

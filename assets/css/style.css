@@ -231,6 +231,10 @@ form {
 	margin-top: 2rem;
 }
 
+fieldset {
+    border: 1px solid;
+}
+
 
 
 
