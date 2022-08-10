@@ -227,12 +227,28 @@ footer {
     padding: 10px;
 }
 
+/* Form page styling */
 form {
 	margin-top: 2rem;
 }
 
 fieldset {
     border: 1px solid;
+    border-radius: 4px;
+    margin: 2em;
+    padding: 1em, 2em;
+    min-height: 200px;
+}
+
+legend {
+    font-size: 1.25em;
+    margin-left: 10px;
+    padding: 0.5em;
+}
+
+label {
+    display: block;
+    margin: 1em;
 }
 
 #submit-form {
@@ -248,4 +264,18 @@ fieldset {
     color: gold;
 }
 
+input {
+    padding: 0.5em;
+    border: solid 1px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
 
+#age {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#choose-amount {
+    margin-left: 10px;
+}
