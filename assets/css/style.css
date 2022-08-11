@@ -50,17 +50,17 @@ header {
 /* To change this border bottom color to white later once blue background added */
 #menu a:hover {
     border-bottom: solid 5px;
-    border-bottom-color: gold;
+    border-bottom-color: darkblue;
 }
 
 .active {
     border-bottom: solid 5px;
-    border-bottom-color: gold;
+    border-bottom-color: darkblue;
 }
 
 .active button {
-    background-color: #303030;
-    color: gold;
+    background-color:darkblue;
+    color: white;
 }
 
 button {
@@ -73,8 +73,8 @@ button {
 }
 
 button:hover {
-    background-color: #181818;
-    color: gold;
+    background-color: darkblue;
+    color: white;
 }
 
 #hero-image {
@@ -131,7 +131,7 @@ button:hover {
 #support-section {
     width: 30%;
     float: left;
-    background-color: blue;
+    background-color: lightgrey;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 10px;
@@ -140,7 +140,7 @@ button:hover {
 #information-section {
     width: 30%;
     float: right;
-    background-color: yellow;
+    background-color: lightgrey;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 10px;
@@ -149,7 +149,7 @@ button:hover {
 #care-section {
     width: 30%;
     margin: 0 auto;
-    background-color: silver;
+    background-color: lightgrey;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 10px;
@@ -179,7 +179,7 @@ button:hover {
     float: right;
     text-align: center;
     line-height: 60px;
-    background-color: green;
+    background-color: darkblue;
     border-radius: 10px;
 
 }
@@ -214,7 +214,7 @@ footer {
 }
 
 .social-media i:hover {
-    color: gold
+    color: white;
 }
 
 #address {
