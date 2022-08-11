@@ -19,7 +19,7 @@ h1, h2 {
 header {
     height: 100px;
     width: 100%;
-    background-color: orange;
+    background-color:rgba(34, 152, 173, 0.5)
 }
 /* To change this logo id later to the actual MND logo */
 #logo {
@@ -93,7 +93,7 @@ button:hover {
 }
 
 #text-box, #text-box h2 {
-    color: gold;
+    color: white;
 }
 #text-box {
     font-size: 120%;
@@ -102,7 +102,7 @@ button:hover {
     width: 300px;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: rgba(0, 89, 255, 0.6);
+    background-color:rgba(34, 152, 173, 0.5);
     bottom: 50px;
     left: 50px;
     position: absolute;
@@ -192,7 +192,7 @@ footer {
     height: 100px;
     width: 100%;
     clear: both;
-    background-color: orange;
+    background-color:rgba(34, 152, 173, 0.5)
 }
 
 .social-media {
@@ -295,6 +295,7 @@ input {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    overflow: hidden;
 }
 
 #banner-text {
