@@ -276,13 +276,21 @@ legend {
     padding: 0.5em;
 }
 
-#choose-amount {
-    margin-left: 1em;
+input {
+    padding: 0.5em;
+    border: solid 1px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 label {
     display: block;
     margin: 1em;
+}
+
+.radio-buttons {
+    display: inline-block;
+    margin-right: 1%;
 }
 
 #submit-form {
@@ -298,13 +306,6 @@ label {
 #submit-form:hover {
     background-color:white;
     color: #492d1f;
-}
-
-input {
-    padding: 0.5em;
-    border: solid 1px;
-    margin-left: 10px;
-    margin-bottom: 10px;
 }
 
 #age {
