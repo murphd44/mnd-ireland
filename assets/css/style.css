@@ -25,6 +25,7 @@ header {
 #logo {
     float: left;
     margin-left: 2%;
+    height: 100px;
 }
 
 #menu {
