@@ -267,7 +267,7 @@ fieldset {
     border-radius: 4px;
     margin: 2em;
     padding: 1em, 2em;
-    min-height: 200px;
+    min-height: 150px;
 }
 
 legend {
@@ -288,9 +288,22 @@ label {
     margin: 1em;
 }
 
+#email-address {
+    clear: left;
+}
+
 .radio-buttons {
     display: inline-block;
     margin-right: 1%;
+}
+
+#age {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#choose-amount {
+    margin-left: 10px;
 }
 
 #submit-form {
@@ -306,15 +319,6 @@ label {
 #submit-form:hover {
     background-color:white;
     color: #492d1f;
-}
-
-#age {
-    margin-left: 10px;
-    margin-bottom: 10px;
-}
-
-#choose-amount {
-    margin-left: 10px;
 }
 
 /* Banner image styling for the image and text that fits above the donation form */
