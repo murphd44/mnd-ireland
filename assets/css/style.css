@@ -19,7 +19,7 @@ h1, h2 {
 header {
     height: 100px;
     width: 100%;
-    background-color:rgba(34, 152, 173, 0.5)
+    background-color:#1167B5;
 }
 /* To change this logo id later to the actual MND logo */
 #logo {
@@ -196,7 +196,7 @@ footer {
     height: 100px;
     width: 100%;
     clear: both;
-    background-color:rgba(34, 152, 173, 0.5)
+    background-color:#1167B5;
 }
 
 .social-media {
