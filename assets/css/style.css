@@ -264,14 +264,15 @@ label {
 #submit-form {
     border: 2px solid #303030;
     background-color: white;
-    padding: 12px 12px;
+    padding: 10px 10px;
     font-size: 100%;
     border-radius: 4px;
+    transition-duration: 0.3s;
 }
 
 #submit-form:hover {
-    background-color: #181818;
-    color: gold;
+    background-color: darkblue;
+    color: white;
 }
 
 input {
