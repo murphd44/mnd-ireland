@@ -50,7 +50,6 @@ header {
     color: inherit;
 }
 
-/* To change this border bottom color to white later once blue background added */
 #menu a:hover {
     border-bottom: solid 5px;
     border-bottom-color: #492d1f;
@@ -81,6 +80,7 @@ button:hover {
     color: #492d1f;
 }
 
+/* Hero image - ? needs some styling instructions here*/
 #hero-image {
     height: 400px;
     width: 100%;
@@ -96,9 +96,11 @@ button:hover {
     position: relative;
 }
 
+/* Styling for text box on hero image */
 #text-box, #text-box h2 {
     color: white;
 }
+
 #text-box {
     font-size: 120%;
     font-family: Roboto, sans-serif;
@@ -113,6 +115,7 @@ button:hover {
     border-radius: 10px;
 }
 
+/* Styling of home page centre te4xt information boxes on left side */
 #left-text {
     height: 380px;
     width: 66%;
@@ -160,11 +163,11 @@ button:hover {
 }
 
 /*to target this later to center these sections */
-#left-text {
+/* #left-text {
     display: inline-block;
     width: 66%;
     margin-bottom: 1%;
-}
+} */
 
 .article {
     height: 322px;
@@ -175,6 +178,17 @@ button:hover {
     padding-top: 1%;
 }
 
+/* Styling a layout for centre icons when hovered over on home page */
+
+.hide {
+    display: none;
+}
+
+.icon-hover:hover +.hide {
+    display: block;
+}
+
+/* right text box styling */
 #right-text {
     height: 335px;
     width: 30%;
