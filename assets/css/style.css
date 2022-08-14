@@ -115,7 +115,7 @@ button:hover {
     border-radius: 10px;
 }
 
-/* Styling of home page centre te4xt information boxes on left side */
+/* Styling of home page centre text information boxes on left side */
 #left-text {
     height: 380px;
     width: 66%;
@@ -137,7 +137,8 @@ button:hover {
 
 #left-text i {
     font-size: 3rem;
-    margin-top: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 #support-section {
@@ -185,7 +186,7 @@ button:hover {
     padding-top: 1%;
 }
 
-/* Styling a layout for centre icons when hovered over on home page */
+/* Styling a layout for centre icons when hovered over on home page - can change add this later as time allows */
 
 /* .hide {
     display: none;
