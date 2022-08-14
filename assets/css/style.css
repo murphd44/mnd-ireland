@@ -255,6 +255,8 @@ footer {
     padding: 10px;
 }
 
+
+
 /* Form page styling */
 form {
 	margin-top: 2rem;
@@ -288,6 +290,7 @@ label {
     margin: 1em;
 }
 
+/* Styling for input boxes, radio butttons, and checkboxes - macthing the color themes of the webpage*/
 input:hover, select:hover {
     border-color: rgba(243,151,102,255);
   }
@@ -295,7 +298,6 @@ input:hover, select:hover {
 input[type=radio], input[type=checkbox] {
    accent-color: #492d1f;
   }
-    
 
 /* This id for email was needed in order to fix a bug in the form 
 where the email text and box were sitting up alongside the address input */
@@ -331,6 +333,8 @@ where the email text and box were sitting up alongside the address input */
     background-color:white;
     color: #492d1f;
 }
+
+
 
 /* Banner image styling for the image and text that fits above the donation form */
 
