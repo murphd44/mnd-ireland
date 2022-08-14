@@ -187,13 +187,13 @@ button:hover {
 
 /* Styling a layout for centre icons when hovered over on home page */
 
-.hide {
+/* .hide {
     display: none;
 }
 
 .icon-hover:hover +.hide {
     display: block;
-}
+} */
 
 /* right text box styling */
 #right-text {
@@ -265,7 +265,7 @@ form {
 }
 
 fieldset {
-    border: 2px solid rgba(243,151,102,255);;
+    border: 2px solid rgba(243,151,102,255);
     border-radius: 4px;
     margin: auto;
     padding: 1em, 2em;
