@@ -270,6 +270,7 @@ fieldset {
     margin: 2em;
     padding: 1em, 2em;
     min-height: 150px;
+    min-width: 200px;
 }
 
 legend {
@@ -281,13 +282,12 @@ legend {
 input {
     padding: 0.5em;
     border: solid 1px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    margin: 0 0 1em 1em;
 }
 
 label {
     display: block;
-    margin: 1em;
+    margin: 0 0 1em 1em;
 }
 
 /* Styling for input boxes, radio butttons, and checkboxes - macthing the color themes of the webpage*/
@@ -311,12 +311,13 @@ where the email text and box were sitting up alongside the address input */
 }
 
 #age {
-    margin-left: 10px;
-    margin-bottom: 10px;
+    margin: 0 0 1em 1em;
+    /* margin-left: 10px;
+    margin-bottom: 10px; */
 }
 
 #choose-amount {
-    margin-left: 10px;
+    margin-left: 1em;
 }
 
 #submit-form {
