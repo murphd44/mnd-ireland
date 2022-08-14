@@ -267,7 +267,7 @@ form {
 fieldset {
     border: 2px solid rgba(243,151,102,255);;
     border-radius: 4px;
-    margin: 2em;
+    margin: auto;
     padding: 1em, 2em;
     min-height: 150px;
     min-width: 200px;
@@ -297,6 +297,10 @@ input:hover, select:hover {
 
 input[type=radio], input[type=checkbox] {
     accent-color: #492d1f;
+}
+
+input[type=radio] {
+    margin-left: 1em;
 }
 
 .radio-buttons {
@@ -370,7 +374,7 @@ where the email text and box were sitting up alongside the address input */
 }
 
 #banner-text > h2 { 
-    /* color: white; */
+    color: white;
     font-size: large;
     line-height: 2em;
 }
