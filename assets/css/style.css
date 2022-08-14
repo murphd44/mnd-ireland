@@ -296,18 +296,19 @@ input:hover, select:hover {
   }
 
 input[type=radio], input[type=checkbox] {
-   accent-color: #492d1f;
-  }
+    accent-color: #492d1f;
+}
+
+.radio-buttons {
+    display: inline-block;
+    margin-right: 0;
+}
+
 
 /* This id for email was needed in order to fix a bug in the form 
 where the email text and box were sitting up alongside the address input */
 #email-address {
     clear: left;
-}
-
-.radio-buttons {
-    display: inline-block;
-    margin-right: 1%;
 }
 
 #age {
@@ -333,6 +334,10 @@ where the email text and box were sitting up alongside the address input */
 #submit-form:hover {
     background-color:white;
     color: #492d1f;
+}
+
+#newsletter-text {
+    margin: 1em;
 }
 
 
