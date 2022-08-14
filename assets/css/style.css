@@ -363,6 +363,14 @@ where the email text and box were sitting up alongside the address input */
     color: white;
 }
 
-#banner-text > h1 {
+#banner-text > h1 { 
     color: white;
+    font-size: xx-large;
+    padding-bottom: 1em;
+}
+
+#banner-text > h2 { 
+    /* color: white; */
+    font-size: large;
+    line-height: 2em;
 }
