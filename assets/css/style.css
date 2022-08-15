@@ -377,7 +377,7 @@ where the email text and box were sitting up alongside the address input */
 }
 
 
-/* Media Queries */
+/* Media Queries--------------------------------------------------------------------------------------------- */
 
 /* media queries - index.html */
 
@@ -396,6 +396,17 @@ where the email text and box were sitting up alongside the address input */
         padding-top: 20px;
         padding-bottom: 20px;
     } 
+    #helpline-box {
+        float: left;
+        width: 50%;
+    }
+
+    #email-box {
+        float: right;
+        width: 50%;
+        vertical-align: middle;
+
+    }
 }
 
 /* For small/ phone screen sizes from *** and below - complete later */
