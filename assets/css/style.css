@@ -393,26 +393,31 @@ where the email text and box were sitting up alongside the address input */
         height: auto;
         margin: 0 auto;
     } 
-    
 }
 
 /* For small/ phone screen sizes from *** and below - complete later */
-/* @media screen and (max-width:1200px) {
-#support-section {
-    clear: right;
-    width: 100%;
-    margin: 0 auto;
-}
+@media screen and (max-width:480px) {
+    #left-text {
+        width: 100%;
+        margin: 0 auto;
+        height: auto;
+    }
+    #support-section {
+        clear: right;
+        width: 100%;
+        margin: 0 auto;
+    }
 
-#care-section {
-    clear: both;
-    width: 100%;
-    margin: 0 auto;
-}
+    #care-section {
+        clear: both;
+        width: 100%;
+        margin: 0 auto;
+    }
 
-#information-section {
-    clear: left;
-    width: 100%;
-    margin: 0 auto;
+    #information-section {
+        clear: right;
+        width: 100%;
+        margin: 0 auto;
+        float: none;
+    }
 }
-} */
