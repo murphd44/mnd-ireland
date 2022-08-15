@@ -16,6 +16,8 @@ h1, h2 {
     color: 	#181818;
 }
 
+
+/* Headrer section */
 header {
     height: 100px;
     width: 100%;
@@ -256,6 +258,47 @@ footer {
     margin-left: 10px;
     padding: 10px;
 }
+
+
+/* About MND page styling */
+
+.info-section {
+    height: 200px;
+    position: relative;
+    width: 50%;
+}
+
+.info-section-content {
+    height: 200px;
+    position: absolute;
+    display: inline-block;
+}
+
+.info-section-content h1 {
+    padding: 0 10%;
+    text-align: center;
+    
+}
+
+.info-section-content p {
+    padding: 0 10%;
+    text-align: justify;
+}
+.right-image {
+    height: 200px;
+    position: absolute;
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* Form page styling */
 form {
