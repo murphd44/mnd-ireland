@@ -330,6 +330,7 @@ where the email text and box were sitting up alongside the address input */
     background-color: #492d1f;
     color: white;
     padding: 10px 10px;
+    margin-top: 1em;
     font-size: 100%;
     border-radius: 4px;
     transition-duration: 0.3s;
