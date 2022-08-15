@@ -216,6 +216,10 @@ button:hover {
     vertical-align: middle;
 }
 
+#right-text p {
+    font-size: larger;
+}
+
 footer {
     height: 100px;
     width: 100%;
@@ -404,8 +408,19 @@ where the email text and box were sitting up alongside the address input */
     #email-box {
         float: right;
         width: 50%;
-        vertical-align: middle;
+    }
+}
 
+/* For larger/medium screen sizes from 950px wide and below */
+@media screen and (max-width:950px) {
+    #helpline-box {
+        float: left;
+        width: 50%;
+    }
+
+    #email-box {
+        float: right;
+        width: 50%;
     }
 }
 
