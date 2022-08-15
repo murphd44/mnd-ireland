@@ -246,14 +246,16 @@ footer {
 }
 
 #address {
+    color: white;
     float: left;
-}
-
-#address p {
     text-align: left;
     margin-left: 10px;
     padding: 10px;
 }
+
+/* #address p {
+    
+} */
 
 
 
