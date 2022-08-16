@@ -262,13 +262,6 @@ footer {
 
 /* About MND page styling */
 
-/* .info-section {
-    height: 250px;
-    position: relative;
-    overflow: hidden;
-    width: 50%;
-} */
-
 .info-section-content {
     height: 250px;
     width: 50%;
@@ -290,18 +283,12 @@ footer {
 }
 
 .right-image {
-    height: 250px;
     width: 100%;
-    background: url(../images/mnd-patient.jpg) no-repeat center center;
-    background-size: cover;
-    float: right;
-    clear: right;
 }
 
 .image-outer {
     height: 250px;
     width: 50%;
-    position: relative;
     float: right;
     overflow: hidden;
 }
