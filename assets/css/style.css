@@ -588,19 +588,27 @@ where the email text and box were sitting up alongside the address input */
         height: 300px;
         width: 100%;
         margin: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 8px;
     }
 
     .right-info-section {
         height: 300px;
         width: 100%;
-        margin: 0 1% 0 1%;
+        margin: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 8px;
     }
 
     .image-outer {
         height: 300px;
         width: 100%;
-        margin: 0 1% 1% 1%;
+        margin: 1%;
         border-radius: 8px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .right-image {
@@ -611,11 +619,21 @@ where the email text and box were sitting up alongside the address input */
 
 /* For small tablet/ phone screen sizes from 600px wide and below */
 @media screen and (max-width:600px) {
-    .right-info-section, .left-info-section {
+    .right-info-section {
         height: 400px;
         width: 100%;
         margin: 1%;
-    } 
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .left-info-section {
+        height: 400px;
+        width: 100%;
+        margin: 1%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     .right-info-section p {
         line-height: 25px;
@@ -627,17 +645,20 @@ where the email text and box were sitting up alongside the address input */
         line-height: 25px;
     }
 
-    .right-image {
-        width: 100%;
-    }
-    
     .image-outer {
         height: 250px;
         width: 100%;
         border-radius: 8px;
-        margin: 0 1%;
+        margin: 1%;
+        margin-left: auto;
+        margin-right: auto;
     }
-
+    
+    .right-image {
+        width: 100%;
+    }
+    
+    
 }
 
 
