@@ -709,26 +709,6 @@ where the email text and box were sitting up alongside the address input */
     }
 
     #logo {
-        float: left;
-        margin-left: 1%;
-        height: 100px;
-        font-size: 2rem;
-    }
-
-    #menu {
-        font-size: 150%;
-        margin-right: 2%;
-    }
-
-}
-
-/* For larger/medium screen sizes from 1200px wide and below as header breaks down at this point*/
-@media screen and (max-width:1200px) {
-    header {
-        height: 200px;
-    }
-
-    #logo {
         height: 100px;
         font-size: 2rem;
     }
@@ -753,15 +733,15 @@ where the email text and box were sitting up alongside the address input */
     }
 
     #logo {
-        font-size: 1.5rem;
+        height: 100px;
     }
     
     #logo-heading {
         float: left;
         clear: left;
+        margin-left: 1%;
         font-size: 1.5rem;
     }
-
 
     #menu {
         font-size: 100%;
@@ -772,5 +752,36 @@ where the email text and box were sitting up alongside the address input */
         float: right;
         clear: none;
         margin-right: 2%;
+    }
+}
+
+/* For smaller tablets/ phone scren sizes from 650px wide and below */
+
+@media screen and (max-width:650px) {
+    header {
+        height: 150px;
+    }
+
+    #logo {
+        height: 50px;
+        margin-left: 0;
+    }
+
+    #logo-heading {
+        float: left;
+        clear: left;
+        margin-left: 3%;
+        font-size: 1.5rem;
+    }
+
+    #menu li {
+        float: left;
+        clear: right;
+        margin-left: 3%;
+        list-style-type: none;
+    }
+
+    #menu, #logo, #logo-heading {
+        line-height: 50px;
     }
 }
