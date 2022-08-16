@@ -271,6 +271,7 @@ footer {
     width: 50%;
     background-color: #66c2f3;
     float: right;
+    border-radius: 8px;
 }
 
 .right-info-section h1 {
@@ -290,6 +291,7 @@ footer {
     background-color: #66c2f3;
     float: left;
     clear: right;
+    border-radius: 8px;
 }
 
 .left-info-section h1 {
@@ -549,3 +551,35 @@ where the email text and box were sitting up alongside the address input */
         line-height: 30px;
     }
 }
+
+
+/* media queries - about.html */
+
+/* For larger/medium screen sizes from 1200px wide and below */
+@media screen and (max-width:1200px) {
+    .right-info-section {
+        height: 400px;
+        float: right;
+    }
+
+    .left-info-section {
+        height: 400px;
+        float: left;
+        clear: right;
+    }
+    
+    .right-image {
+        width: 100%;
+        height: fit-content;
+    }
+    
+    .image-outer {
+        height: 400px;
+        width: 50%;
+        float: right;
+        overflow: hidden;
+    }
+}
+
+/* For larger/medium screen sizes from 950px wide and below */
+@media screen and (max-width:950px) {
