@@ -262,21 +262,40 @@ footer {
 
 /* About MND page styling */
 
-.info-section-content {
+.right-info-section {
     height: 250px;
     width: 50%;
     background-color: beige;
-    /* position: absolute; */
-    display: inline-block;
+    float: right;
 }
 
-.info-section-content h1 {
+.right-info-section h1 {
     padding: 0 10%;
     margin-bottom: 1em;
     text-align: center;   
 }
 
-.info-section-content p {
+.right-info-section p {
+    padding: 0 10%;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.left-info-section {
+    height: 250px;
+    width: 50%;
+    background-color: beige;
+    float: left;
+    clear: right;
+}
+
+.left-info-section h1 {
+    padding: 0 10%;
+    margin-bottom: 1em;
+    text-align: center;   
+}
+
+.left-info-section p {
     padding: 0 10%;
     text-align: justify;
     line-height: 30px;
