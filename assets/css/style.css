@@ -583,3 +583,61 @@ where the email text and box were sitting up alongside the address input */
 
 /* For larger/medium screen sizes from 950px wide and below */
 @media screen and (max-width:950px) {
+
+    .left-info-section {
+        height: 300px;
+        width: 100%;
+        margin: 1%;
+    }
+
+    .right-info-section {
+        height: 300px;
+        width: 100%;
+        margin: 0 1% 0 1%;
+    }
+
+    .image-outer {
+        height: 300px;
+        width: 100%;
+        margin: 0 1% 1% 1%;
+        border-radius: 8px;
+    }
+
+    .right-image {
+        width: 100%;
+    }
+}
+
+
+/* For small tablet/ phone screen sizes from 600px wide and below */
+@media screen and (max-width:600px) {
+    .right-info-section, .left-info-section {
+        height: 400px;
+        width: 100%;
+        margin: 1%;
+    } 
+
+    .right-info-section p {
+        line-height: 25px;
+    }
+    
+    .left-info-section p {
+        padding: 0 10%;
+        text-align: justify;
+        line-height: 25px;
+    }
+
+    .right-image {
+        width: 100%;
+    }
+    
+    .image-outer {
+        height: 250px;
+        width: 100%;
+        border-radius: 8px;
+        margin: 0 1%;
+    }
+
+}
+
+
