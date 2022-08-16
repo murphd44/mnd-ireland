@@ -265,14 +265,16 @@ footer {
 /* .info-section {
     height: 250px;
     position: relative;
+    overflow: hidden;
     width: 50%;
 } */
 
 .info-section-content {
     height: 250px;
     width: 50%;
+    background-color: beige;
     /* position: absolute; */
-    /* display: inline-block; */
+    display: inline-block;
 }
 
 .info-section-content h1 {
@@ -288,13 +290,21 @@ footer {
 }
 
 .right-image {
-    height: 500px;
-    width: 50%;
+    height: 250px;
+    width: 100%;
+    background: url(../images/mnd-patient.jpg) no-repeat center center;
+    background-size: cover;
     float: right;
-    clear: both;
-    overflow: hidden;
+    clear: right;
 }
 
+.image-outer {
+    height: 250px;
+    width: 50%;
+    position: relative;
+    float: right;
+    overflow: hidden;
+}
 
 
 
