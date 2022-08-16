@@ -137,6 +137,10 @@ button:hover {
     padding-top: 30px;
 }
 
+#left-text p {
+    text-align: justify;
+}
+
 #left-text i {
     font-size: 3rem;
     margin-top: 5%;
@@ -263,18 +267,15 @@ footer {
 /* About MND page styling */
 
 .right-info-section {
-    height: 250px;
+    height: 300px;
     width: 50%;
     background-color: #66c2f3;
-    color: white;
     float: right;
 }
 
 .right-info-section h1 {
-    padding: 0 10%;
-    margin-bottom: 1em;
-    text-align: center; 
-    color: white;  
+    margin: 1em;
+    text-align: center;  
 }
 
 .right-info-section p {
@@ -284,19 +285,16 @@ footer {
 }
 
 .left-info-section {
-    height: 250px;
+    height: 300px;
     width: 50%;
     background-color: #66c2f3;
-    color: white;
     float: left;
     clear: right;
 }
 
 .left-info-section h1 {
-    padding: 0 10%;
-    margin-bottom: 1em;
-    text-align: center;
-    color: white;   
+    margin: 1em;
+    text-align: center;  
 }
 
 .left-info-section p {
@@ -310,7 +308,7 @@ footer {
 }
 
 .image-outer {
-    height: 250px;
+    height: 300px;
     width: 50%;
     float: right;
     overflow: hidden;
