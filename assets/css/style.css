@@ -24,19 +24,21 @@ header {
     background-color:rgba(243,151,102,255);
 }
 
-#logo {
+#logo, #logo-heading {
     float: left;
     margin-left: 2%;
     height: 100px;
     font-size: 2rem;
 }
 
+
+
 #menu {
     font-size: 150%;
     margin-right: 2%;
 }
 
-#menu, #logo {
+#menu, #logo, #logo-heading {
     line-height: 100px;
     color: white;
 }
@@ -495,7 +497,7 @@ where the email text and box were sitting up alongside the address input */
     }
 }
 
-/* For small/ phone screen sizes from *** and below - complete later */
+/* For small/ phone screen sizes from 480px and below - complete later */
 @media screen and (max-width:480px) {
     
     /* 3 left text boxes styling */
@@ -739,7 +741,17 @@ where the email text and box were sitting up alongside the address input */
         clear: left;
         margin-right: 2%;
     }
-
 }
 
+/* For tablet/ smaller screen sizes from 950px wide and below */
 
+@media screen and (max-width:950px) {
+    header {
+        height: 200px;
+    }
+
+    #logo-heading {
+        float: left;
+        clear: both;
+    }
+}
