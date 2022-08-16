@@ -226,6 +226,9 @@ button:hover {
     font-size: larger;
 }
 
+
+/* Styling for footer-------------------------------------------*/
+
 footer {
     height: 100px;
     width: 100%;
@@ -553,7 +556,7 @@ where the email text and box were sitting up alongside the address input */
 }
 
 
-/* media queries - about.html */
+/* media queries - about.html -----------------------------------------------------------------*/
 
 /* For larger/medium screen sizes from 1200px wide and below */
 @media screen and (max-width:1200px) {
@@ -656,9 +659,40 @@ where the email text and box were sitting up alongside the address input */
     
     .right-image {
         width: 100%;
+    }  
+}
+
+/* For small tablet/ phone screen sizes from 600px wide and below */
+/* Footer remains responsive and layout is clear until below this point */
+
+@media screen and (max-width:600px) {
+
+    .social-media {
+        text-align: left;
+        margin-left: 25px;
     }
-    
-    
+
+    .social-media > li {
+        display: inline;
+        font-size: 100%; 
+    }
+
+    .social-media i {
+        margin: 1%;
+        padding: 5px;
+        color: white;
+        float: left;
+        clear: right;
+    }   
+
+    #address {
+        color: white;
+        float: left;
+        text-align: right;
+        margin-left: 10px;
+        padding: 5px;
+        font-size: smaller;
+    }
 }
 
 
