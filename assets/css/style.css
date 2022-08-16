@@ -265,14 +265,16 @@ footer {
 .right-info-section {
     height: 250px;
     width: 50%;
-    background-color: beige;
+    background-color: #66c2f3;
+    color: white;
     float: right;
 }
 
 .right-info-section h1 {
     padding: 0 10%;
     margin-bottom: 1em;
-    text-align: center;   
+    text-align: center; 
+    color: white;  
 }
 
 .right-info-section p {
@@ -284,7 +286,8 @@ footer {
 .left-info-section {
     height: 250px;
     width: 50%;
-    background-color: beige;
+    background-color: #66c2f3;
+    color: white;
     float: left;
     clear: right;
 }
@@ -292,7 +295,8 @@ footer {
 .left-info-section h1 {
     padding: 0 10%;
     margin-bottom: 1em;
-    text-align: center;   
+    text-align: center;
+    color: white;   
 }
 
 .left-info-section p {
