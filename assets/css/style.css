@@ -17,21 +17,23 @@ h1, h2 {
 }
 
 
-/* Headrer section */
+/* Header section ------------------------------------------- */
 header {
     height: 100px;
     width: 100%;
     background-color:rgba(243,151,102,255);
 }
 
-#logo, #logo-heading {
+#logo {
     float: left;
     margin-left: 2%;
     height: 100px;
-    font-size: 2rem;
 }
 
-
+#logo-heading {
+    float: left;
+    font-size: 2rem;
+}
 
 #menu {
     font-size: 150%;
@@ -750,8 +752,25 @@ where the email text and box were sitting up alongside the address input */
         height: 200px;
     }
 
+    #logo {
+        font-size: 1.5rem;
+    }
+    
     #logo-heading {
         float: left;
-        clear: both;
+        clear: left;
+        font-size: 1.5rem;
+    }
+
+
+    #menu {
+        font-size: 100%;
+        margin-right: 2%;
+    }
+
+    #menu li {
+        float: right;
+        clear: none;
+        margin-right: 2%;
     }
 }
