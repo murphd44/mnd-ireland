@@ -23,7 +23,7 @@ header {
     width: 100%;
     background-color:rgba(243,151,102,255);
 }
-/* To change this logo id later to the actual MND logo */
+
 #logo {
     float: left;
     margin-left: 2%;
@@ -693,6 +693,53 @@ where the email text and box were sitting up alongside the address input */
         padding: 5px;
         font-size: smaller;
     }
+}
+
+
+/* media queries - header -----------------------------------------------------------------*/
+
+/* For larger/medium screen sizes from 1200px wide and below as header breaks down at this point*/
+@media screen and (max-width:1200px) {
+    header {
+        height: 200px;
+    }
+
+    #logo {
+        float: left;
+        margin-left: 1%;
+        height: 100px;
+        font-size: 2rem;
+    }
+
+    #menu {
+        font-size: 150%;
+        margin-right: 2%;
+    }
+
+}
+
+/* For larger/medium screen sizes from 1200px wide and below as header breaks down at this point*/
+@media screen and (max-width:1200px) {
+    header {
+        height: 200px;
+    }
+
+    #logo {
+        height: 100px;
+        font-size: 2rem;
+    }
+
+    #menu {
+        font-size: 150%;
+        margin-right: 2%;
+    }
+
+    #menu li {
+        float: right;
+        clear: left;
+        margin-right: 2%;
+    }
+
 }
 
 
