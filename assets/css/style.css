@@ -138,7 +138,7 @@ button:hover {
 }
 
 #left-text h2 {
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 #left-text p {
@@ -468,6 +468,7 @@ where the email text and box were sitting up alongside the address input */
     #left-text {
         height: auto;
     }
+
     #support-section {
         width: 100%;
         margin: 0 auto;
@@ -506,8 +507,8 @@ where the email text and box were sitting up alongside the address input */
         margin-bottom: 2%;
     }
 
-    /* Right text box (helpline, email) styling - **may not need this** */
-    /* #right-text {
+    /* Right text box (helpline, email) styling */
+    #right-text {
         width: 100%;
         height: auto;
         margin: 0 auto;
@@ -515,7 +516,7 @@ where the email text and box were sitting up alongside the address input */
         padding-top: 20px;
         padding-bottom: 20px;
         line-height: 30px;
-    } */
+    }
 } 
 
 /* For small/ phone screen sizes from 480px and below */
