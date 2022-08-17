@@ -725,21 +725,59 @@ where the email text and box were sitting up alongside the address input */
     }
 }
 
-/* For tablet/ smaller screen sizes from 950px wide and below */
+/* For tablet/ smaller screen sizes from 850px wide and below */
 
-@media screen and (max-width:950px) {
+@media screen and (max-width:850px) {
+    header {
+        height: 225px;
+    }
+
+    #logo {
+        height: 75px;
+    }
+    
+    #logo-heading {
+        float: left;
+        clear: both;
+        margin-left: 3%;
+        font-size: 1.5rem;
+        color: red;
+    }
+
+    #menu {
+        font-size: 150%;
+        margin-right: 2%;
+    }
+
+    #menu li {
+        float: right;
+        clear: left;
+        margin-right: 2%;
+    }
+
+    #menu, #logo, #logo-heading {
+        line-height: 75px;
+    }
+}
+
+/* For smaller tablets/ phone scren sizes from 650px wide and below */
+
+@media screen and (max-width:650px) {
     header {
         height: 200px;
     }
 
     #logo {
-        height: 100px;
+        height: 50px;
+        /* float: left;
+        clear: left; */
+        margin-left: 0;
     }
-    
+
     #logo-heading {
         float: left;
-        clear: left;
-        margin-left: 1%;
+        clear: both;
+        margin-left: 3%;
         font-size: 1.5rem;
     }
 
@@ -750,34 +788,8 @@ where the email text and box were sitting up alongside the address input */
 
     #menu li {
         float: right;
-        clear: none;
-        margin-right: 2%;
-    }
-}
-
-/* For smaller tablets/ phone scren sizes from 650px wide and below */
-
-@media screen and (max-width:650px) {
-    header {
-        height: 150px;
-    }
-
-    #logo {
-        height: 50px;
-        margin-left: 0;
-    }
-
-    #logo-heading {
-        float: left;
         clear: left;
-        margin-left: 3%;
-        font-size: 1.5rem;
-    }
-
-    #menu li {
-        float: left;
-        clear: right;
-        margin-left: 3%;
+        margin-left: 2%;
         list-style-type: none;
     }
 
