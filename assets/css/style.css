@@ -491,14 +491,15 @@ where the email text and box were sitting up alongside the address input */
         height: auto;
     }
 
+    .article p {
+        margin: 2%;
+        font-size: larger;
+    }
+
     #support-section, #care-section, #information-section, h2 {
         padding-top: 10px;
     }
     
-    /* #left-text, p {
-        padding: 0 10px 20px 10px;
-    }  */
-
     #left-text i {
         font-size: 2rem;
         margin-top: 2%;
@@ -517,9 +518,12 @@ where the email text and box were sitting up alongside the address input */
     } */
 } 
 
-/* For small/ phone screen sizes from 480px and below - complete later */
+/* For small/ phone screen sizes from 480px and below */
 @media screen and (max-width:480px) {
-
+    .article p {
+        margin: 2%;
+        font-size: medium;
+    }
 }
 
 
