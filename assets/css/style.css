@@ -362,17 +362,8 @@ input[type=radio] {
     margin-right: 0;
 }
 
-
-/* This id for email was needed in order to fix a bug in the form 
-where the email text and box were sitting up alongside the address input */
-/* #email-address {
-    clear: left;
-} */
-
 #age {
     margin: 0 0 1em 1em;
-    /* margin-left: 10px;
-    margin-bottom: 10px; */
 }
 
 #choose-amount {
