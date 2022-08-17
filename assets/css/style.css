@@ -183,6 +183,10 @@ button:hover {
     overflow: scroll;
 }
 
+.article > p {
+    padding: 0 2%;
+}
+
 #left-text, p {
     padding-top: 1%;
 }
