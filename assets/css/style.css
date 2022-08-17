@@ -178,15 +178,6 @@ button:hover {
     border-radius: 10px;
 }
 
-
-
-/*to target this later to center these sections */
-/* #left-text {
-    display: inline-block;
-    width: 66%;
-    margin-bottom: 1%;
-} */
-
 .article {
     height: 322px;
     overflow: scroll;
@@ -195,16 +186,6 @@ button:hover {
 #left-text, p {
     padding-top: 1%;
 }
-
-/* Styling a layout for centre icons when hovered over on home page - can change add this later as time allows */
-
-/* .hide {
-    display: none;
-}
-
-.icon-hover:hover +.hide {
-    display: block;
-} */
 
 /* right text box styling */
 #right-text {
@@ -326,13 +307,7 @@ footer {
 
 
 
-
-
-
-
-
-
-/* Form page styling */
+/* Form page styling ---------------------------------------------------------------------------*/
 form {
 	margin-top: 2rem;
     margin-left: 30%;
@@ -741,7 +716,6 @@ where the email text and box were sitting up alongside the address input */
         clear: both;
         margin-left: 3%;
         font-size: 1.5rem;
-        color: red;
     }
 
     #menu {
@@ -764,13 +738,11 @@ where the email text and box were sitting up alongside the address input */
 
 @media screen and (max-width:650px) {
     header {
-        height: 200px;
+        height: 150px;
     }
 
     #logo {
         height: 50px;
-        /* float: left;
-        clear: left; */
         margin-left: 0;
     }
 
@@ -790,10 +762,38 @@ where the email text and box were sitting up alongside the address input */
         float: right;
         clear: left;
         margin-left: 2%;
-        list-style-type: none;
     }
 
     #menu, #logo, #logo-heading {
         line-height: 50px;
+    }
+}
+
+
+
+/* Media Queries - Donate page -------------------------------------------------------------------------------------- */
+/* For tablet/ smaller screen sizes from 850px wide and below */
+
+/* For form section of page */
+@media screen and (max-width:850px) {
+    form {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+/* For smaller tablets/ phone scren sizes from 650px wide and below */
+@media screen and (max-width:650px) {
+    form {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+/* For small phone scren sizes from 450px wide and below */
+@media screen and (max-width:450px) {
+    form {
+        margin-left: 2.5%;
+        margin-right: 2.5%;
     }
 }
