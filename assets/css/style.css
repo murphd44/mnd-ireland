@@ -461,40 +461,26 @@ where the email text and box were sitting up alongside the address input */
     }
 }
 
-/* For larger/medium screen sizes from 850px wide and below */
+/* For medium screen sizes from 850px wide and below */
 @media screen and (max-width:850px) {
-    /* #helpline-box {
-        float: left;
-        width: 50%;
-    }
-
-    #email-box {
-        float: right;
-        width: 50%;
-    } */
-
+    
     /* 3 left text boxes styling */
     #left-text {
-        width: 100%;
-        margin: 0 auto;
         height: auto;
     }
     #support-section {
-        clear: right;
         width: 100%;
         margin: 0 auto;
         margin-bottom: 1%;
     }
 
     #care-section {
-        clear: both;
         width: 100%;
         margin: 0 auto;
         margin-bottom: 1%;
     }
 
     #information-section {
-        clear: right;
         width: 100%;
         margin: 0 auto;
         float: none;
@@ -505,13 +491,13 @@ where the email text and box were sitting up alongside the address input */
         height: auto;
     }
 
-    #left-text h2 {
+    #support-section, #care-section, #information-section, h2 {
         padding-top: 10px;
     }
     
-    #left-text, p {
-        padding-top: 0;
-    }
+    /* #left-text, p {
+        padding: 0 10px 20px 10px;
+    }  */
 
     #left-text i {
         font-size: 2rem;
@@ -519,22 +505,24 @@ where the email text and box were sitting up alongside the address input */
         margin-bottom: 2%;
     }
 
-    /* Right text box (helpline, email) styling */
-    #right-text {
-        height: auto;
+    /* Right text box (helpline, email) styling - **may not need this** */
+    /* #right-text {
         width: 100%;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        height: auto;
+        margin: 0 auto;
         margin-bottom: 1%;
+        padding-top: 20px;
+        padding-bottom: 20px;
         line-height: 30px;
-    }
-}
+    } */
+} 
 
 /* For small/ phone screen sizes from 480px and below - complete later */
 @media screen and (max-width:480px) {
-    
 
 }
+
+
 
 
 /* media queries - about.html -----------------------------------------------------------------*/
