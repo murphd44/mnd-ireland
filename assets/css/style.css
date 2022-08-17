@@ -782,11 +782,39 @@ where the email text and box were sitting up alongside the address input */
     }
 }
 
+/* For banner image */
+    #banner-text > h1 { 
+        color: white;
+        font-size: large;
+        padding-bottom: 1em;
+}
+
+    #banner-text > h2 { 
+        color: white;
+        font-size: medium;
+        line-height: 2em;
+}
+
 /* For smaller tablets/ phone scren sizes from 650px wide and below */
+
+/* For form section of page */
 @media screen and (max-width:650px) {
     form {
         margin-left: 10%;
         margin-right: 10%;
+    }
+
+/* For banner image */
+    #banner-text > h1 { 
+        color: white;
+        font-size: medium;
+        padding-bottom: 1em;
+    }
+
+    #banner-text > h2 { 
+        color: white;
+        font-size: small;
+        line-height: 2em;
     }
 }
 
