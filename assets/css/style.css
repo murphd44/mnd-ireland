@@ -437,7 +437,7 @@ where the email text and box were sitting up alongside the address input */
 
 /* Media Queries--------------------------------------------------------------------------------------------- */
 
-/* media queries - index.html */
+/* media queries - index.html -----------------------------------------------------------------*/
 
 /* For larger/medium screen sizes from 1200px wide and below */
 @media screen and (max-width:1200px) {
@@ -640,9 +640,10 @@ where the email text and box were sitting up alongside the address input */
     }  
 }
 
+/* media queries - footer section -----------------------------------------------------------------*/
+
 /* For small tablet/ phone screen sizes from 600px wide and below */
 /* Footer remains responsive and layout is clear until below this point */
-
 @media screen and (max-width:600px) {
 
     .social-media {
@@ -656,20 +657,13 @@ where the email text and box were sitting up alongside the address input */
     }
 
     .social-media i {
-        margin: 1%;
         padding: 5px;
-        color: white;
-        float: left;
-        clear: right;
-    }   
+    }
 
     #address {
-        color: white;
-        float: left;
-        text-align: right;
         margin-left: 10px;
         padding: 5px;
-        font-size: smaller;
+        font-size: small;
     }
 }
 
