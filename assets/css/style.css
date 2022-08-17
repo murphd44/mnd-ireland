@@ -435,7 +435,7 @@ where the email text and box were sitting up alongside the address input */
 }
 
 
-/* Media Queries--------------------------------------------------------------------------------------------- */
+/* Media Queries---------------------------------------------------------------------------------------------------------------------- */
 
 /* media queries - index.html -----------------------------------------------------------------*/
 
@@ -534,7 +534,7 @@ where the email text and box were sitting up alongside the address input */
 
 
 
-/* media queries - about.html -----------------------------------------------------------------*/
+/* media queries - about.html ----------------------------------------------------------------------------------------------------*/
 
 /* For larger/medium screen sizes from 1200px wide and below */
 @media screen and (max-width:1200px) {
@@ -640,7 +640,7 @@ where the email text and box were sitting up alongside the address input */
     }  
 }
 
-/* media queries - footer section -----------------------------------------------------------------*/
+/* media queries - footer section ----------------------------------------------------------------------------------------------*/
 
 /* For small tablet/ phone screen sizes from 600px wide and below */
 /* Footer remains responsive and layout is clear until below this point */
@@ -668,7 +668,7 @@ where the email text and box were sitting up alongside the address input */
 }
 
 
-/* media queries - header -----------------------------------------------------------------*/
+/* media queries - header --------------------------------------------------------------------------------------------------------*/
 
 /* For larger/medium screen sizes from 1200px wide and below as header breaks down at this point*/
 @media screen and (max-width:1200px) {
@@ -727,7 +727,7 @@ where the email text and box were sitting up alongside the address input */
     }
 }
 
-/* For smaller tablets/ phone scren sizes from 650px wide and below */
+/* For smaller tablets/ phone screen sizes from 650px wide and below */
 
 @media screen and (max-width:650px) {
     header {
@@ -764,33 +764,32 @@ where the email text and box were sitting up alongside the address input */
 
 
 
-/* Media Queries - Donate page -------------------------------------------------------------------------------------- */
+/* Media Queries - Donate page ------------------------------------------------------------------------------------------------- */
 /* For tablet/ smaller screen sizes from 850px wide and below */
 
-/* For form section of page */
+/* For form section */
 @media screen and (max-width:850px) {
     form {
         margin-left: 20%;
         margin-right: 20%;
     }
-}
 
 /* For banner image */
     #banner-text > h1 { 
         color: white;
         font-size: large;
         padding-bottom: 1em;
-}
-
+    }
     #banner-text > h2 { 
         color: white;
         font-size: medium;
         line-height: 2em;
+    }
 }
 
-/* For smaller tablets/ phone scren sizes from 650px wide and below */
+/* For smaller tablets/ phone screen sizes from 650px wide and below */
 
-/* For form section of page */
+/* For form section */
 @media screen and (max-width:650px) {
     form {
         margin-left: 10%;
@@ -811,7 +810,7 @@ where the email text and box were sitting up alongside the address input */
     }
 }
 
-/* For small phone scren sizes from 450px wide and below */
+/* For small phone screen sizes from 450px wide and below */
 @media screen and (max-width:450px) {
     form {
         margin-left: 2.5%;
