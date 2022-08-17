@@ -461,9 +461,9 @@ where the email text and box were sitting up alongside the address input */
     }
 }
 
-/* For larger/medium screen sizes from 950px wide and below */
-@media screen and (max-width:950px) {
-    #helpline-box {
+/* For larger/medium screen sizes from 850px wide and below */
+@media screen and (max-width:850px) {
+    /* #helpline-box {
         float: left;
         width: 50%;
     }
@@ -471,12 +471,8 @@ where the email text and box were sitting up alongside the address input */
     #email-box {
         float: right;
         width: 50%;
-    }
-}
+    } */
 
-/* For small/ phone screen sizes from 480px and below - complete later */
-@media screen and (max-width:480px) {
-    
     /* 3 left text boxes styling */
     #left-text {
         width: 100%;
@@ -508,7 +504,7 @@ where the email text and box were sitting up alongside the address input */
     .article {
         height: auto;
     }
-    
+
     #left-text h2 {
         padding-top: 10px;
     }
@@ -523,7 +519,7 @@ where the email text and box were sitting up alongside the address input */
         margin-bottom: 2%;
     }
 
-/* Right text box (helpline, email) styling */
+    /* Right text box (helpline, email) styling */
     #right-text {
         height: auto;
         width: 100%;
@@ -532,6 +528,12 @@ where the email text and box were sitting up alongside the address input */
         margin-bottom: 1%;
         line-height: 30px;
     }
+}
+
+/* For small/ phone screen sizes from 480px and below - complete later */
+@media screen and (max-width:480px) {
+    
+
 }
 
 
