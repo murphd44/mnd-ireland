@@ -56,22 +56,17 @@ header {
     color: inherit;
 }
 
-#menu a:hover {
-    border-bottom: solid 5px;
-    border-bottom-color: #492d1f;
-}
-
 .active {
     border-bottom: solid 5px;
     border-bottom-color: #492d1f;
 }
 
-.active button {
-    background-color:#492d1f;
-    color: white;
+#menu a:hover {
+    border-bottom: solid 5px;
+    border-bottom-color: #492d1f;
 }
 
-button {
+#donate-button {
     border: 2px solid #492d1f;
     background-color:#492d1f;
     color: white;
@@ -81,10 +76,29 @@ button {
     transition-duration: 0.3s;
 }
 
-button:hover {
+#donate-button:hover {
+    background-color:white;
+    color: #492d1f;
+    border-bottom: none;
+}
+
+#donate-button .active {
     background-color:white;
     color: #492d1f;
 }
+
+
+
+/* #menu .active {
+    background-color:white;
+    color: #492d1f;
+} */
+
+
+
+
+
+
 
 /* Hero image - ? needs some styling instructions here*/
 #hero-image {
