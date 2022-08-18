@@ -61,7 +61,12 @@ header {
     border-bottom-color: #492d1f;
 }
 
-#menu a:hover {
+/* #menu a:hover {
+    border-bottom: solid 5px;
+    border-bottom-color: #492d1f;
+} */
+
+.menu-hover:hover {
     border-bottom: solid 5px;
     border-bottom-color: #492d1f;
 }
@@ -79,10 +84,10 @@ header {
 #donate-button:hover {
     background-color:white;
     color: #492d1f;
-    border-bottom: none;
+    /* border-bottom: none; */
 }
 
-#donate-button .active {
+#donate-button.active {
     background-color:white;
     color: #492d1f;
 }
