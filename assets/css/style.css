@@ -89,18 +89,7 @@ header {
 
 
 
-/* #menu .active {
-    background-color:white;
-    color: #492d1f;
-} */
-
-
-
-
-
-
-
-/* Hero image - ? needs some styling instructions here*/
+/* Hero image styling instructions ----------------------------*/
 #hero-image {
     height: 400px;
     width: 100%;
@@ -336,7 +325,6 @@ fieldset {
     border: 2px solid rgba(243,151,102,255);
     border-radius: 4px;
     margin: auto;
-    padding: 1em, 2em;
     min-height: 150px;
     min-width: 200px;
 }
