@@ -1,4 +1,4 @@
-Motor Neurone Disease Ireland
+# Motor Neurone Disease Ireland
 
 Visit the deployed website [here](https://murphd44.github.io/mnd-ireland/)   ***change this link later
 
@@ -7,29 +7,27 @@ Visit the deployed website [here](https://murphd44.github.io/mnd-ireland/)   ***
 •	The purpose is provide an information resource and a dedicated helpline and contact which can help direct the patient, carer, or family member to the appropriate information, or healthcare professional.
 
 
-Table of Contents
+## Table of Contents
 
 Add contents here later***
 
 
-User Experience (UX)
+## User Experience (UX)
 
-Goal of the Project
+### Goal of the Project
 
 •	The webpage should have a clear attractive design, and appear welcoming and professional.
 •	Display to the user the key information on the homepage, which encapsulates what the site is about.
 •	Provide contact information, clearly displayed on the home page.
 •	Offer users the opportunity to donate to the organisation, which will allow maintenance and provision of a quality service.
 
-User Stories:
+### User Stories:
 
 •	As a website user, I need to be able to be able to navigate through the pages easily.
 •	As a website user, I do not wish to be overwhelmed with information, I would like to see the key information, quickly and easily.
 •	As a website user, I want to be able to contact the service easily including email, phone, and by social media.
 
-Website Design
-
-Color Scheme:
+### Website Desing - Color Scheme:
 
 Images here of colors*
 
@@ -38,26 +36,26 @@ The colors chosen were based around the MNDI logo image, which is a light orange
 A website called [Image Color Picker](https://imagecolorpicker.com) was used to identify the logo color. The website then suggests colors that are complementary to this. Colors were then chosen and the color codes were copied into the website CSS code.
 
 
-Fonts:
+### Website Design - Fonts:
 
 Lato was chosen for the body text. It was chosen as it is a clear, precise, and professional looking font.
 
 Roboto was chosen for h1 and h2 headings. Roboto was chosen for its strong clean lines, and the friendly welcoming style for a website such as a charity website. It is known to pair well with Lato.
 
 
-Site layout:
+### Site layout:
 
 The site layout was designed by hand sketching. It shows placement of the different elements within the page. A sample sketch of the index.html page is shown below.
 
-Features:
+## Features:
 
-General:
+### General:
 
 •	The website is responsive across all devices including mobile, tablet, laptop, and desktop.
 
 •	A consistent color scheme and layout across the website, which presents information clarly to the user.
 
-Header:
+### Header:
 
 Header image here*
 
@@ -67,7 +65,7 @@ Header image here*
 
 •	The navigation bar has a hover effect, whereby the user can easily see that links are clickable. The navigation bar also has a feature on the donate link where is appears as a button. The style of this button also changes when hovered over with a mouse. This button also maintains a consistent style and color scheme with the form page submit button.
 
-Footer:
+### Footer:
 
 Footer image here*
 
@@ -75,9 +73,9 @@ Footer image here*
 
 •	Social media links are responsive across all devices. The social media icons change color when hovered over with a mouse. The color change is consistent with the color scheme in the header hover pseudo elements.
 
-Home page (index.html) Page:
+### Home page (index.html) Page:
 
-Main image:
+#### Main image:
 
 Hero image here*
 
@@ -85,8 +83,7 @@ Hero image here*
 
 •	It contains a text box, which also conveys a positive message for the user.
 
-
-What We Do Section:
+#### What We Do Section:
 
 Image here*
 
@@ -94,7 +91,7 @@ Image here*
 
 •	The boxes are responsive across all devices, and contain font awesome logos, which quickly signpost and alert the user to what the content of the box is about.
 
-Contact Section:
+#### Contact Section:
 
 Image here*
 
@@ -103,9 +100,9 @@ Image here*
 •	This information box is also responsive across all devices.
 
 
-About MND Page:
+### About MND Page:
 
-Information box sections:
+#### Information box sections:
 
 Image here*
 
@@ -113,16 +110,16 @@ Image here*
 
 •	The style of the text boxes matches the style and color scheme used on the index.html page, to ensure a consistent user experience.
 
-Images:
+#### Images:
 
 1 sample Image here with box and image side by side*
 
 Images are interspersed between the text boxes. Both the text boxes and images are responsive across all devices.
 
 
-Donate Page:
+### Donate Page:
 
-Banner image:
+#### Banner image:
 
 Image here*
 
@@ -132,7 +129,7 @@ The image contains text overlaid on it is clear white font. The text is to conve
 
 The image is responsive across all devices.
 
-Donate Form Section:
+#### Donate Form Section:
 
 Image here*
 
@@ -153,39 +150,39 @@ Programming Languages Used:
 
 Frameworks, Programs, and Web Resources Used:
 
-•	Google Fonts link* https://fonts.google.com/ 
+•	[Google Fonts](https://fonts.google.com/)
 
 o	Google fonts was used to choose and import the fonts Lato and Roboto. The were imported for use into the style.css file.
 
-•	Adobe Express link* https://express.adobe.com/express-apps/logo-maker/
+•	[Adobe Express](https://express.adobe.com/express-apps/logo-maker/)
 
 o	The header logo was designed using Adobe Express.
 
-•	Image Color Picker link* https://imagecolorpicker.com/en 
+•	[Image Color Picker](https://imagecolorpicker.com/en)
 
 o	This website was used to identify the CSS code for the logo color. It was then possible to use this CSS color code to apply colors and complementary colors across the website.
 
-•	GitPod link* https://www.gitpod.io
+•	[GitPod](https://www.gitpod.io)
 
 o	Git pod was used as the code editor for the project for writing, commiting, and finally pushing code to GitHub.
 
-•	GitHub link* https://github.com 
+•	[GitHub](https://github.com)
 
 o	GitHub was used as a storage repository for the project after it was pushed from Gitpod.
 
-•	Chrome Dev Tools link* https://developer.chrome.com/docs/devtools/
+•	[Chrome Dev Tools](https://developer.chrome.com/docs/devtools/)
 
 o	Chrome dev tools was used throughout the whole process of website development to check how different elements of code worked together and to assist in trouble shooting. It was also more heavily used in testing responsiveness of the website.
 
-•	W3C Markup Validator link* https://validator.w3.org 
+•	[W3C Markup Validator](https://validator.w3.org)
 
 o	This website was used to validate the HTML code for the three pages.
 
-•	W3C CSS Validator link* https://jigsaw.w3.org/css-validator/ 
+•	[W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 o	This website was used to validate the CSS code for the website.
 
-Other resources here**
+Other resources here********
 
 
 Testing
@@ -196,7 +193,7 @@ Text here…..
 
 Code Validation:
 
-The W3C Markup Validator and W3C CSS Validator (text as hyperlinks**) websites were used to validate all the HTMl pages and the CSS style sheet for this project.
+The [W3C Markup Validator](https://validator.w3.org) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) websites were used to validate all the HTMl pages and the CSS style sheet for this project.
 
 Details on validation error and corrections here**
 
@@ -210,7 +207,7 @@ Accessibility:
 
 Lighthouse was used within Chrome Developer Tools to assess the performance and  accessibility of the website across mobile and desktop devices.
 
-**Comment on reports here**
+Comment on reports here******
 
 Lighthouse Reports:
 
@@ -231,9 +228,11 @@ Image here*
 
 Testing Using Specific Tools:
 
-Chrome DevTools hyperlink**
+[Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) 
+As previously explained above, Chrome dev tools was used throughout the whole process of website development to check how different elements of code worked together and to assist in trouble shooting. It was also more heavily used in testing responsiveness of the website.
 
-Am I Responsive? Info link
+[Am I Responsive?](https://ui.dev/amiresponsive)
+Am I rsponsive was used to check responsiveness of the website on a number of device scree nsizes at once.
 
 
 Manual Testing:
@@ -286,7 +285,7 @@ o	About MND Page
 	There are no clickable elements to this page.
 
 o	Donate Page
-	When filling out the donate form the user is required to complete certain fields before submitting. First name, last name, and email are required in order for the form to be submitted. **Need to change form so one donation amount can be selected**
+	When filling out the donate form the user is required to complete certain fields before submitting. First name, last name, and email are required in order for the form to be submitted. Need to change form so one donation amount can be selected**************
 	Hovering over the input boxes changes the border color to the orange form theme color, highlighting the input box to the user.
 	Hovering over the submit button will change the color and font of the button to match the same style used for the donate link button in the nav bar.
 
