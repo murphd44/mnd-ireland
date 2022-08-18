@@ -154,6 +154,11 @@ Image here*
 
 o	Google fonts was used to choose and import the fonts Lato and Roboto. The were imported for use into the style.css file.
 
+•	[Font Awesome](https://fontawesome.com/)
+
+o	Font Awesome icons were used throughout the website to improve user experience, it helps to improve the meaning and accessibility of the text content.
+
+
 •	[Adobe Express](https://express.adobe.com/express-apps/logo-maker/)
 
 o	The header logo was designed using Adobe Express.
