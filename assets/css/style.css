@@ -93,7 +93,7 @@ header {
 #hero-image {
     height: 400px;
     width: 100%;
-    background: url(../images/mnd-hero-original.jpg) no-repeat center center;
+    background: url(../images/mnd-hero-original.webp) no-repeat center center;
     background-size: cover;
     clear: both;
 }
@@ -259,14 +259,13 @@ footer {
 }
 
 
-/* About MND page styling */
+/* About MND page styling -----------------------------------------------------------------------------------------*/
 
 .right-info-section {
     height: 300px;
     width: 50%;
     background-color: #66c2f3;
     float: right;
-    border-radius: 8px;
 }
 
 .right-info-section h1 {
@@ -286,7 +285,6 @@ footer {
     background-color: #66c2f3;
     float: left;
     clear: right;
-    border-radius: 8px;
 }
 
 .left-info-section h1 {
@@ -310,8 +308,6 @@ footer {
     float: right;
     overflow: hidden;
 }
-
-
 
 
 /* Form page styling ---------------------------------------------------------------------------*/
@@ -564,7 +560,6 @@ input[type=radio] {
         margin: 1%;
         margin-left: auto;
         margin-right: auto;
-        border-radius: 8px;
     }
 
     .right-info-section {
@@ -573,14 +568,12 @@ input[type=radio] {
         margin: 1%;
         margin-left: auto;
         margin-right: auto;
-        border-radius: 8px;
     }
 
     .image-outer {
         height: 300px;
         width: 100%;
         margin: 1%;
-        border-radius: 8px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -622,7 +615,6 @@ input[type=radio] {
     .image-outer {
         height: 250px;
         width: 100%;
-        border-radius: 8px;
         margin: 1%;
         margin-left: auto;
         margin-right: auto;
