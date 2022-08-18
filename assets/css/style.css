@@ -746,6 +746,15 @@ input[type=radio] {
     }
 }
 
+/* Additional media query added after noticed bug usign am I responsive? for screen width below 350px wide */
+@media screen and (max-width:350px) {
+#logo-heading {
+    float: left;
+    clear: both;
+    margin-left: 3%;
+    font-size: 1.2rem;
+    }
+}
 
 
 /* Media Queries - Donate page ------------------------------------------------------------------------------------------------- */

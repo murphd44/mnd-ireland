@@ -1,6 +1,6 @@
 # Motor Neurone Disease Ireland
 
-Visit the deployed website [here](https://murphd44.github.io/mnd-ireland/)   ***change this link later
+Visit the deployed website [here](https://murphd44.github.io/mnd-ireland/)
 
 •	Motor Neurone Disease Ireland is a fictional charity organisation for patients with motor neuron disease and their families. It is dedicated to providing information, care, and support for both patients, their carers, and families.
 
