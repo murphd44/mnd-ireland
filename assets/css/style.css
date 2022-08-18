@@ -393,7 +393,7 @@ input[type=radio] {
 /* Banner image styling for the image and text that fits above the donation form */
 
 #banner-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/form-image.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/form-image.webp");
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
