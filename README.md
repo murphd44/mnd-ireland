@@ -203,7 +203,29 @@ Add contents here later***
 # Testing
 
 ## Testing User Stories: 
-Enter here******
+
+* As a website user I want to be be able to easily navigate the site, and learn more about Motor Neurone Disease and the resources available to me.
+
+    * The website is clearly laid out with clearly color coded text boxes with icons sign-posting the user to the relevant content.
+
+    * The navigation bar is clearly shown at the top of each page and is large and clear to read.
+
+* As a patient or carer I want to know how I can contact you to find out more information.
+
+    * The index page clearly has the contact information shown in a text box.
+
+    * The footer section contains the business address as well as social media links to the organisation.
+
+* As a carer or person intersted in helping those with MND I would like to donate to the cause.
+
+    * The donate form allows the user to easily donate an amount of money of their choice.
+
+    * I would like to stay informed of future pland and updates regarding MND research and plans of MNDI.
+
+    * The form contains an option to sign up to a newsletter.
+
+
+
 
 ## Code Validation:
 
@@ -218,7 +240,7 @@ Enter here******
 
 * Lighthouse was used within Chrome Developer Tools to assess the performance and accessibility of the website across mobile and desktop devices.
 
-Comment on reports here******
+* The lighthouse reports shown below show that all areas acheived a good accessibility score of 97%. The webite could have beeen improved on scores for performance for the index page on both desktop and tablet. The donate page could have improved performance on mobile devices. Given more time I would have fixed these issues using the reports and suggestions made by lighthouse.
 
 ### Lighthouse Reports:
 
