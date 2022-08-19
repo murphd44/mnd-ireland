@@ -16,7 +16,6 @@ h1, h2 {
     color: 	#181818;
 }
 
-
 /* Header section ------------------------------------------- */
 header {
     height: 100px;
@@ -85,8 +84,6 @@ header {
     background-color:white;
     color: #492d1f;
 }
-
-
 
 /* Hero image styling instructions ----------------------------*/
 #hero-image {
@@ -387,8 +384,6 @@ input[type=radio] {
     margin: 1em;
 }
 
-
-
 /* Banner image styling for the image and text that fits above the donation form */
 
 #banner-image {
@@ -520,8 +515,6 @@ input[type=radio] {
 }
 
 
-
-
 /* media queries - about.html ----------------------------------------------------------------------------------------------------*/
 
 /* For larger/medium screen sizes from 1200px wide and below */
@@ -582,7 +575,6 @@ input[type=radio] {
     }
 }
 
-
 /* For small tablet/ phone screen sizes from 600px wide and below */
 @media screen and (max-width:600px) {
     .right-info-section {
@@ -623,6 +615,7 @@ input[type=radio] {
         width: 100%;
     }  
 }
+
 
 /* media queries - footer section ----------------------------------------------------------------------------------------------*/
 
