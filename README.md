@@ -1,6 +1,6 @@
 # Motor Neurone Disease Ireland
 
-! [Motor Neurone Disease Ireland amiresponsive images](.assets/readme-files/amiresponsive.png)
+![Motor Neurone Disease Ireland amiresponsive images](assets/readme-files/amiresponsive-image.png)
 
 
 Visit the deployed website [here](https://murphd44.github.io/mnd-ireland/)
@@ -34,12 +34,20 @@ Add contents here later***
 
 ## Website Design - Color Scheme:
 
-Images here of colors*
+![Complementary colors image](assets/readme-files/complement-colors.png)
+
+![Analogous colors image](assets/readme-files/analogous-colors.png)
+
+![Monochromatic colors image](assets/readme-files/monochromatic-colors.png)
+
 
 * The colors chosen were based around the MNDI logo image, which is a light orange colour. The logo was designed using [Adobe Express](https://express.adobe.com/express-apps/logo-maker/). The logo was designed in a number of different colors and styles. The colors were tested on the website, however it was difficult to match some colors to others. It was found that the orange had more complementary colors which could be matched, producing a more attractive color scheme.
 
+![MNDI logo image](assets/readme-files/mndi-logo.png)
+
 * A website called [Image Color Picker](https://imagecolorpicker.com) was used to identify the logo color. The website then suggests colors that are complementary to this. Colors were then chosen and the color codes were copied into the website CSS code.
 
+![Color picker image](assets/readme-files/color-picker.png)
 
 ## Website Design - Fonts:
 
@@ -52,6 +60,8 @@ Images here of colors*
 
 * The site layout was designed by hand sketching. It shows placement of the different elements within the page. A sample sketch of the index.html page is shown below.
 
+![Hand drawn sketch of layout](assets/readme-files/layout-sketch.png)
+
 # Features:
 
 ## General:
@@ -62,7 +72,7 @@ Images here of colors*
 
 ## Header:
 
-Header image here*
+![Image of header section](assets/readme-files/header-image.png)
 
 * The header contains the charity logo and heading to the left side and a navigation bar to the right side. All elements are responsive across all devices.
 
@@ -72,7 +82,7 @@ Header image here*
 
 ## Footer:
 
-Footer image here*
+![Image of header section](assets/readme-files/footer-image.png)
 
 * The footer includes a fictional business address to the left side and social media links to the right side. 
 
@@ -82,7 +92,7 @@ Footer image here*
 
 ### Main image:
 
-Hero image here*
+![Hero image of women](assets/readme-files/hero-image-readme.png)
 
 * The main image is to draw the users attention to the centre of the page. It is used to create a good initial impression on the user. The image used represents care and support in a time of great need. It is not unnecessarily down-beat, as the message of this website is one of hope, care and support.
 
@@ -90,7 +100,7 @@ Hero image here*
 
 ### What We Do Section:
 
-Image here*
+![Image of what we do section](assets/readme-files/whatwedo-section.png)
 
 * This section contains three text boxes with key information to the user on what the charity organisation offers as services. 
 
@@ -98,7 +108,7 @@ Image here*
 
 ### Contact Section:
 
-Image here*
+![Image of contact section](assets/readme-files/contact-section.png)
 
 * This section contains a helpline number and contact email. As with the previous section, font awesome icons improve user experience and alert the user to the nature of the content. 
 
@@ -109,15 +119,13 @@ Image here*
 
 ### Information box sections:
 
-Image here*
+![About MND information and image section](assets/readme-files/about-mnd.png)
 
 * This section contains five text boxes which are arranged in an alternating left and right pattern to create a zig-zag effect. The boxes are interspersed with images reflecting the text content of the boxes. 
 
 * The style of the text boxes matches the style and color scheme used on the index.html page, to ensure a consistent user experience.
 
 ### Images:
-
-1 sample Image here with box and image side by side*
 
 * Images are interspersed between the text boxes. Both the text boxes and images are responsive across all devices.
 
@@ -126,7 +134,7 @@ Image here*
 
 ### Banner image:
 
-Image here*
+![Image of hands in the air](assets/readme-files/donate-image.png)
 
 * The image at the top of the form page adds to the form page which would otherwise be too plain.
 
@@ -136,7 +144,7 @@ Image here*
 
 ### Donate Form Section:
 
-Image here*
+![Image of donate form](assets/readme-files/donate-form.png)
 
 * The donate form allows the user to donate an amount of their choice and also to sign up for further information via a newsletter. 
 
@@ -191,8 +199,6 @@ Image here*
 
     * This website was used to validate the CSS code for the website.
 
-Other resources here********
-
 
 # Testing
 
@@ -218,17 +224,33 @@ Comment on reports here******
 
 * Home Page (index.html):
 
-Image here*
+Desktop testing:
 
+![Image of lighthouse report for home page desktop testing](assets/readme-files/homepage-desktop.png)
+
+Mobile testing:
+
+![Image of lighthouse report for home page mobile testing](assets/readme-files/homepage-mobile.png)
 
 * About MND Page:
 
-Image here*
+Desktop testing:
 
+![Image of lighthouse report for about page desktop testing](assets/readme-files/about-page-desktop.png)
+
+Mobile testing:
+
+![Image of lighthouse report for about page mobile testing](assets/readme-files/about-page-mobile.png)
 
 * Donate Page:
 
-Image here*
+Desktop testing:
+
+![Image of lighthouse report for donate page desktop testing](assets/readme-files/form-page-desktop.png)
+
+Mobile testing:
+
+![Image of lighthouse report for donate page mobile testing](assets/readme-files/form-page-mobile.png)
 
 
 ## Testing Using Specific Tools:
@@ -292,18 +314,43 @@ The website has been tested on the following browsers:
         * There are no clickable elements to this page.
 
     * Donate Page
-        * When filling out the donate form the user is required to complete certain fields before submitting. First name, last name, and email are required in order for the form to be submitted. Need to change form so one donation amount can be selected**************
+        * When filling out the donate form the user is required to complete certain fields before submitting. First name, last name, and email are required in order for the form to be submitted. Need to change form so one donation amount can be selected. Ran out of time on the project, but given more time I would have styled the form so that one of the oprions must be selected but not both.
         * Hovering over the input boxes changes the border color to the orange form theme color, highlighting the input box to the user.
         * Hovering over the submit button will change the color and font of the button to match the same style used for the donate link button in the nav bar.
 
 
 # Finished Website:
 
-Image here* of home page for desktop and mobile
+Index Page:
 
-Image here* of MND info page for desktop and mobile
+* Finished verion - Desktop:
 
-Image here* of donate page for desktop and mobile
+![Image of finished index page on desktop](assets/readme-files/final-homepage.png)
+
+* Finished verion - Mobile:
+
+![Image of finished index page on mobile](assets/readme-files/final-homepage-mobile.png)
+
+About MND Page:
+
+* Finished verion - Desktop:
+
+![Image of finished index page on desktop](assets/readme-files/final-about-page-desktop.png)
+
+* Finished verion - Mobile:
+
+![Image of finished index page on mobile](assets/readme-files/final-about-page-mobile.png)
+
+Donate Page:
+
+* Finished verion - Desktop:
+
+![Image of finished index page on desktop](assets/readme-files/final-donate-page-desktop.png)
+
+* Finished verion - Mobile:
+
+![Image of finished index page on mobile](assets/readme-files/final-about-page-mobile.png)
+
 
 
 # Deployment Of website:
